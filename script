@@ -1,0 +1,6 @@
+#!/bin/bash
+sudo apt update
+sudo apt install apache2
+sudo ufw allow 'Apache'
+touch /var/www/index.html
+echo "<h1>Artem Popov</h1>" > /var/www/index.html
